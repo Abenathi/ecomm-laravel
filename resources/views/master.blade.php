@@ -39,5 +39,11 @@
         float:left;
         width:20%;
     }
+    .trending-wrapper{
+        margin:30px;
+    }
+    .detail-img{
+        height:300px;
+    }
 </style>
 </html>
