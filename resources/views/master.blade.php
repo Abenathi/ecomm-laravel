@@ -32,5 +32,12 @@
     .custom-product{
         height: 500px;
     }
+    .trending-image{
+        height: 100px;
+    }
+    .trending-item{
+        float:left;
+        width:20%;
+    }
 </style>
 </html>

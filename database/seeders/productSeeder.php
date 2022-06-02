@@ -16,11 +16,12 @@ class productSeeder extends Seeder
     {
         //
         DB::table('products')->insert([
-            'name'=>'Samsung A12',
-            'price'=>'$250',
-            'description'=>'Smartphone with a 51px front camera, 100amh battery life and a gorilla glass screen',
+            'name'=>'Armaggeddon ',
+            'price'=>'$74',
+            'description'=>'Trident Design RGB Front Panel,See Thru Tempered Glass Side Panel
+             Fully Black Coated Interior Gaming Chassis',
             'category'=>'electronics',
-            'gallery'=>'https://www.samsung.com/za/smartphones/galaxy-a/galaxy-a12-black-64gb-sm-a127fzkgafa/',
+            'gallery'=>'https://media.takealot.com/covers_images/ed6dbe7613b14b2691afeff99aada8b4/s-zoom.file',
         ]);
     }
 }
