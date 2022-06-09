@@ -26,4 +26,8 @@ Route::post('/login', [userController::class,'login']);
 Route::get('/', [productController::class,'index']);
 Route::get('detail/{id}', [productController::class,'detail']);
 Route::post('add_to_cart', [productController::class,'addToCart']);
+Route::get('cartlist', [productController::class,'cartList']);
+Route::get('removecart/{id}', [productController::class,'removeCart']);
+Route::get('ordernow', [productController::class,'orderNow']);
+Route::post('orderplace', [productController::class,'orderPlace']);
 
